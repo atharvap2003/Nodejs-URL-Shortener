@@ -31,7 +31,25 @@ async function handleGetAnalytics(req, res) {
   });
 }
 
+async function handleRedirectToOrigin(req, res){
+  const shortId = req.params.shortid;
+  const entry = await URL.findOneAndUpdate(
+    {
+      shortId,
+    },
+    {
+      $push: {
+        visitHistory: {
+          timestamp: Date.now(),
+        },
+      },
+    }
+  );
+  res.redirect(entry.redirectURL);
+}
+
 module.exports = {
   handlegenerateShortURL,
   handleGetAnalytics,
+  handleRedirectToOrigin,
 };

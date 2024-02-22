@@ -9,6 +9,7 @@
   "author": "atharva_pandharikar",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "mongoose": "^8.1.3",
     "nanoid": "^5.0.6",
