@@ -16,7 +16,10 @@ async function handlegenerateShortURL(req, res) {
       visitHistory: [],
     });
 
-    return res.json({ id: shortID });
+    // return res.json({ id: shortID });
+    return res.render("home", {
+      id : shortID
+    })
   } catch (error) {
     return res.status(500).json({ error: "Internal server error" });
   }
