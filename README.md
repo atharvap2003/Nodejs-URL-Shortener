@@ -14,16 +14,6 @@ Welcome to the URL Shortener Project! This project aims to provide a simple yet 
     npm start
     ```
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -47,3 +37,7 @@ Follow these instructions to get the URL Shortener project up and running on you
 - Node.js and npm installed on your machine
 - MongoDB installed and running locally or accessible remotely
 - Any modern web browser (Chrome, Firefox, Safari, etc.)
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
