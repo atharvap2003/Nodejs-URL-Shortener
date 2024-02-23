@@ -1,6 +1,19 @@
 # URL Shortener Project
 
+
 Welcome to the URL Shortener Project! This project aims to provide a simple yet powerful solution for shortening long URLs into more manageable and shareable links.
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
 
 ## Table of Contents
 
@@ -35,8 +48,3 @@ Follow these instructions to get the URL Shortener project up and running on you
 - Node.js and npm installed on your machine
 - MongoDB installed and running locally or accessible remotely
 - Any modern web browser (Chrome, Firefox, Safari, etc.)
-
-### Installation
-
-1. Clone the repository to your local machine:
-
