@@ -14,6 +14,7 @@ async function handlegenerateShortURL(req, res) {
       shortId: shortID,
       redirectURL: body.url, // Make sure the field name matches the model
       visitHistory: [],
+      createdBy: req.user._id, //req.user._id middleware se mil rahi haii...
     });
 
     // return res.json({ id: shortID });
