@@ -3,16 +3,15 @@
 
 Welcome to the URL Shortener Project! This project aims to provide a simple yet powerful solution for shortening long URLs into more manageable and shareable links.
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/your-repository.git
-    ```
-
-2. Install dependencies:
+1. Install dependencies:
 
     ```bash
     npm install
+    ```
+2. Start Project
+
+    ```bash
+    npm start
     ```
 
 ## Table of Contents
