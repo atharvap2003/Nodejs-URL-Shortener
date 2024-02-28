@@ -1,17 +1,19 @@
 # URL Shortener Project
 
+
 Welcome to the URL Shortener Project! This project aims to provide a simple yet powerful solution for shortening long URLs into more manageable and shareable links.
 
-## Table of Contents
+1. Install dependencies:
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+    ```bash
+    npm install
+    ```
+2. Start Project
+
+    ```bash
+    npm start
+    ```
+
 
 ## Introduction
 
@@ -36,7 +38,6 @@ Follow these instructions to get the URL Shortener project up and running on you
 - MongoDB installed and running locally or accessible remotely
 - Any modern web browser (Chrome, Firefox, Safari, etc.)
 
-### Installation
+### License
 
-1. Clone the repository to your local machine:
-
+This project is licensed under the [MIT License](LICENSE).
